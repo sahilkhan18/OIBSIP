@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@500&family=Sono&display=swap');
+
+*{
+    font-family: regular 400;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: rgb(143, 173, 163);
+   font-family: 'Courier New', Courier, monospace;
+   outline: none; 
+}
+
+h1{
+    color: rgb(69, 19, 19);
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calci{
+    background-color: rgb(113, 197, 197);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 12px ,
+                5px 5px 12px ;
+    display: grid;
+    grid-template-columns: repeat(4,65px);
+}
+
+input{
+     grid-column: span 4;
+     height: 80px;
+     width: 250px;
+     background-color: rgba(177, 234, 243, 0.842);
+     box-shadow: inset -5px -5px 12px ,
+                 inset 5px 5px 12px  ;
+    border: none;
+    border-radius: 30px;
+    color: rgb(50, 74, 74);
+    font-size: 45px;
+    text-align: start;
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 18px;
+    padding: 25px;
+
+}
+
+button{
+    height: 45px;
+    width: 45px;
+    font-size: 22px;
+    background-color: rgba(224, 230, 236, 0.557);
+    box-shadow: 5px 5px 12px ,
+                5px 5px 12px  ;
+    border: none;
+    border-radius: 40%;
+    margin: 7px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+button:hover{
+    width: px;
+    color: rgba(2, 0, 7, 0.331);
+}
+
+.equals{
+    width: 110px;
+    border-radius: 35px;
+    box-shadow:  5px 5px 10px ,
+                 5px 5px 10px  ;
+    transition: 0.5s;
+}
+
+
+
